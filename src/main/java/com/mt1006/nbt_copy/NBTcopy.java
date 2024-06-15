@@ -9,14 +9,15 @@ import org.slf4j.Logger;
 public class NBTcopy
 {
 	public static final String MOD_ID = "nbt_copy";
-	public static final String VERSION = "1.0";
-	public static final String FOR_VERSION = "1.20.1";
+	public static final String VERSION = "1.0.1";
+	public static final String FOR_VERSION = "1.21";
 	public static final String FOR_LOADER = "Forge";
 	public static final Logger LOGGER = LogUtils.getLogger();
+	public static boolean skipButton = false;
 
 	public NBTcopy()
 	{
-		LOGGER.info(getFullName() + " - Author: mt1006 (mt1006x)");
+		LOGGER.info("{} - Author: mt1006", getFullName());
 	}
 
 	public static String getFullName()
